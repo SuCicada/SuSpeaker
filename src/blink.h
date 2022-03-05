@@ -1,6 +1,4 @@
-//
-// Created by Administrator on 2021/6/11.
-//
+
 #include "Arduino.h"
 
 int pin10 = 10;
