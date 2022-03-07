@@ -13,7 +13,7 @@ void setup() {
 }
 
 // the loop function runs over and over again forever
-int d = 300;
+int d = 500;
 
 void test1() {
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -28,9 +28,9 @@ void test1() {
 }
 
 void loop() {
-    int f = (int) random(255);
-    analogWrite(9, f);
-    Serial.println(f);
-    delay(300);
-
+//    int f = (int) random(255);
+//    analogWrite(9, f);
+//    Serial.println(f);
+//    delay(300);
+    test1();
 }
